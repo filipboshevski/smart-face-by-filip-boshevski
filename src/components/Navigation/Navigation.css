@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "SignOut Font";
+    src: url('./Fonts/All\ The\ Roll\ -\ Personal\ Use.otf');
+}
+
+.signout {
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'SignOut Font';
+    font-size: 2.5em;
+    color: #ACF600;
+    text-shadow: 2px 2px 10px black;
+}
+
+.signoutbutton:active {
+    color: #3dcf04cc;
+}
+
+@keyframes signout-hover {
+    from   { transform: scale(1); }
+    to { transform: scale(1.1);}
+}
+
+@keyframes signout {
+    from   { transform: scale(1.1); }
+    to { transform: scale(1);}
+}

@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.hoverbutton {
+  animation-name: signout;
+  animation-duration: 0.3s;
+}
+
+.hoverbutton:hover {
+  transform: repeat(scale(1.1));
+  animation-name: signout-hover;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 100%;
+}
+
+.hoverbutton:active {
+  animation: none;
+  transform: none;
+}

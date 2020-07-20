@@ -1,0 +1,24 @@
+.font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 1px 1px 5px black;
+    color: rgba(255, 255, 255, 0.918);
+}
+
+.background {
+    background: #FBFBFB;
+    margin-top: 3em;
+}
+
+.animation {
+    background: linear-gradient(89deg, #ff9292, #ffc97f, #fff284, #b4ff82, #82df79, #88ffe6, #99a4ff, #f991ff, #ff79c5, #ff7e7e);
+    background-size: 2000% 2000%;
+
+    animation: signinanimation 43s ease infinite;
+}
+
+@keyframes signinanimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
